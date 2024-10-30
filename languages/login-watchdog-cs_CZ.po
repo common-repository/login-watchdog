@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Login Watchdog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Jun 15 2016 18:47:18 GMT+0200 (CEST)\n"
+"PO-Revision-Date: Tue Jun 28 2016 11:50:23 GMT+0200 (CEST)\n"
+"Last-Translator: admin <jkmasg@gmail.com>\n"
+"Language-Team: \n"
+"Language: Czech\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: cs_CZ\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../admin/assets/view/administration.php:80
+msgid " out of"
+msgstr " z"
+
+#. Name of the plugin
+msgid "Login Watchdog"
+msgstr "Login Watchdog"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/login-watchdog"
+msgstr "https://wordpress.org/plugins/login-watchdog"
+
+#. Description of the plugin
+msgid ""
+"Plugin records failed login attempts and in case of exceeding the setting "
+"number of failed attempts blocks all login attempts from that IP address. In "
+"the administration shows a list of failed records with detailed overview "
+"(username, IP address, geolocation data)."
+msgstr ""
+"Plugin zaznamenává neúspěšné pokusy o přihlášení a v případě, že je "
+"překročen nastavený maximální počet neúspěšných pokusů, plugin zablokuje "
+"danou IP adresu. V administraci se zobrazuje seznam neúspěšných pokusů o "
+"přihlášení s detailním přehledem (uživatelské jméno, IP adresa, geolokační "
+"údaje). "
+
+#. Author of the plugin
+msgid "James JkmAS Mejstrik"
+msgstr "Jakub JkmAS Mejstřík"
+
+#. Author URI of the plugin
+msgid "https://jkmas.cz"
+msgstr "https://jkmas.cz"
+
+#: ../admin/WatchdogValidation.php:38
+msgid "Number of attemps can not be empty and must be a number"
+msgstr "Počet pokusů nemůže být nulový a musí mít číselnou hodnotu"
+
+#: ../admin/WatchdogValidation.php:43
+msgid "Number of attemps must be between 1 and 10"
+msgstr "Počet pokusů musí být mezi 1 a 10"
+
+#: ../admin/WatchdogValidation.php:71
+msgid "Length of blocking IP addresses can not be empty and must be a number"
+msgstr "Délka blokace IP adresy nemůže být nulová a musí mít číselnou hodnotu"
+
+#: ../admin/WatchdogValidation.php:76
+msgid ""
+"Length of blocking IP addresses must be between 10 mins and 1 month (43200 "
+"mins)"
+msgstr "Délka blokace IP adresy musí být mezi 10 minutami a 1 měsícem (43200 minut)"
+
+#: ../admin/WatchdogValidation.php:104
+msgid "Maximum number of displayed records can not be empty and must be a number"
+msgstr ""
+"Maximální počet zobrazených záznamů nemůže být nulový a musí být vyjádřen "
+"číselně."
+
+#: ../admin/assets/view/administration.php:16
+msgid "Logs"
+msgstr "Logy"
+
+#: ../admin/assets/view/administration.php:20
+msgid "Settings"
+msgstr "Nastavení"
+
+#: ../admin/assets/view/administration.php:31
+msgid "The number of failed attempts"
+msgstr "Počet neúspěšných pokusů"
+
+#: ../admin/assets/view/administration.php:38
+msgid ""
+"The number of failed login attempts, after which the IP address will be "
+"blocked."
+msgstr "Počet chybných přihlášení, po kterých se IP adresa zablokuje"
+
+#: ../admin/assets/view/administration.php:43
+msgid "Lockout lenght (in minutes)"
+msgstr "Délka blokace (v minutách)"
+
+#: ../admin/assets/view/administration.php:50
+msgid "How long will be the address blocked (in minutes)."
+msgstr "Jak dlouho bude daná adresa blokována (v minutách)."
+
+#: ../admin/assets/view/administration.php:55
+msgid "Maximum number of displayed records"
+msgstr "Maximální počet zobrazených záznamů"
+
+#: ../admin/assets/view/administration.php:62
+msgid "Maximum number of displayed records in logs table."
+msgstr "Maximální počet zobrazených záznamů v tabulce s logy."
+
+#: ../admin/assets/view/administration.php:71
+msgid "Records"
+msgstr "Záznamy"
+
+#: ../admin/assets/view/administration.php:73
+msgid "Do you want to delete the database with records of failed login?"
+msgstr "Chcete vymazat záznamy uložené v databázi?"
+
+#: ../admin/assets/view/administration.php:73
+msgid "rec. store in database."
+msgstr "záznamů uložených v databázi."
+
+#: ../admin/assets/view/administration.php:75
+msgid "Delete all records"
+msgstr "Smazat veškeré záznamy"
+
+#: ../admin/assets/view/administration.php:80
+msgid "Showing"
+msgstr "Zobrazeno"
+
+#: ../admin/assets/view/administration.php:87
+msgid "Refresh"
+msgstr "Obnovit"
+
+#: ../admin/assets/view/administration.php:92
+msgid "IP"
+msgstr "IP"
+
+#: ../admin/assets/view/administration.php:95
+msgid "OS"
+msgstr "OS"
+
+#: ../admin/assets/view/administration.php:98
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: ../admin/assets/view/administration.php:101
+msgid "Date"
+msgstr "Datum"
+
+#: ../admin/assets/view/administration.php:104
+msgid "Country"
+msgstr "Země"
+
+#: ../admin/assets/view/administration.php:107
+msgid "Region"
+msgstr "Region"
+
+#: ../admin/assets/view/administration.php:110
+msgid "No. of failures"
+msgstr "Počet pokusů"
+
+#: ../admin/assets/view/administration.php:117
+msgid "There is no record"
+msgstr "Žádný záznam"
+
+#: ../admin/assets/view/administration.php:127
+msgid "Currently blocked"
+msgstr "Aktuálně blokováno"
+
+#: ../admin/assets/view/administration.php:128
+msgid "blocked"
+msgstr "blokováno"
+
+#: ../admin/assets/view/administration.php:137
+msgid "Remove"
+msgstr "Odeber"
+
+#: ../admin/assets/view/administration.php:154 ..
+#: /admin/assets/view/administration.php:165
+msgid "Show on map"
+msgstr "Zobrazit na mapě"
+
+#: ../admin/assets/view/administration.php:158
+msgid "Loading..."
+msgstr "Načítám..."
+
+#: ../admin/assets/view/administration.php:179
+msgid "Made with <span style='color: #e14d43;'>&hearts;</span> by JkmAS"
+msgstr "Vytvořil s <span style='color: #e14d43;'>&hearts;</span> JkmAS"
+
+#: ../lib/WatchdogControl.php:88
+msgid ""
+"Your IP address can not be identified, for a successful login you can not "
+"hide your ip address"
+msgstr ""
+"Vaše IP adresa nebyla identifikována, pro úspěšné přihlášení nesmíte skrývat "
+"IP adresu"
+
+#: ../lib/WatchdogControl.php:94
+msgid "Logging in from your IP address is blocked, try it later"
+msgstr "Přihlášení z vaší IP adresy je blokováno, zkuste to později"
